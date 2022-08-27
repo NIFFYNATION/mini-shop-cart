@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+
+header{
+  position: fixed;
+top: 0;
+left: 0;
+height: 4rem;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #540075;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+}
+
+header h1{
+  color: rgb(241, 234, 234);
+  font-size: 2rem;
+}
+
+button{
+  background: #540075;
+  color: white;
+  border: 1px solid #540075;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  font: inherit;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:focus{
+  outline: none;
+}
+
+button:hover,
+button:active{
+  background: #790fa3;
+  border-color: #790fa3;
+}
+
+.cart{
+  margin: 5rem 2rem;
+  border: 2px solid #540075;
+  border-radius: 10px;
+}
